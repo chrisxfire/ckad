@@ -49,10 +49,10 @@ kubectl apply -f lab-setup.yml
 
 Edit the empty `sc.yml` file to define a new StorageClass with the following configuration.
 
-Name: sc1
-Reclaim policy: Retain
-Expandable: True
-Volume Binding Mode: Immediate
+Name: sc1  
+Reclaim policy: Retain  
+Expandable: True  
+Volume Binding Mode: Immediate  
 
 Save your changes, deploy it to your cluster, and verify it was created correctly.
 
